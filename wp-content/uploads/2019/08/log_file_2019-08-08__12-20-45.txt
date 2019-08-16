@@ -1,0 +1,29 @@
+
+---Downloaded files---
+The import files for: Demo Import 1 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://chalets
+Data file = C:\wamp64\www\chalets_et_caviar-wp/wp-content/themes/palmeria/assets/demo-data/palmeria.xml
+Widget file = C:\wamp64\www\chalets_et_caviar-wp/wp-content/themes/palmeria/assets/demo-data/palmeria-widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Texte - No Title - Widget already exists
+Texte - No Title - Widget already exists
+Rechercher - No Title - Widget already exists
+Articles récents - No Title - Widget already exists
+Texte - Follow us - Widget already exists
+
+Front Page Sidebar : 
+
+Recherche Disponibilité - No Title - Widget already exists
+
+
+
+---pt-ocdi/after_import---
+

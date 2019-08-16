@@ -1,0 +1,87 @@
+# Translation of Themes - Hello Elementor in French (France)
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-13 13:25:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "Un thème simple et léger pour le constructeur de pages Elementor"
+
+#. Theme Name of the theme
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#. translators: 1: number of comments
+#: comments.php:29
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s réponse"
+msgstr[1] "%1$s réponses"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Une réponse"
+
+#. Translators: HTML arrow
+#: template-parts/search.php:41 template-parts/archive.php:35
+msgid "newer %s"
+msgstr "plus récent %s"
+
+#. Translators: HTML arrow
+#: template-parts/search.php:39 template-parts/archive.php:33
+msgid "%s older"
+msgstr "%s plus ancien"
+
+#: template-parts/search.php:29
+msgid "It seems we can't find what you're looking for."
+msgstr "Il semble que nous ne pouvons pas trouver ce que vous cherchez."
+
+#: template-parts/search.php:14
+msgid "Search results for: "
+msgstr "Résultats de recherche pour : "
+
+#: template-parts/header.php:13 template-parts/header.php:15
+msgid "Home"
+msgstr "Accueil"
+
+#: template-parts/single.php:21
+msgid "Tagged "
+msgstr "Étiqueté "
+
+#: template-parts/404.php:17
+msgid "It looks like nothing was found at this location."
+msgstr "Il semble que rien n’a été trouvé à cet emplacement."
+
+#: template-parts/404.php:13
+msgid "The page can&rsquo;t be found."
+msgstr "La page ne peut pas être trouvée."
+
+#: functions.php:27
+msgid "Primary"
+msgstr "Principal"
+
+#. Theme URI of the theme
+msgid "https://github.com/elementor/hello-elementor-theme"
+msgstr "https://github.com/elementor/hello-elementor-theme"
+
+#. Author URI of the theme
+msgid "https://elementor.com/"
+msgstr "https://elementor.com/"
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr "L’équipe d’Elementor"
