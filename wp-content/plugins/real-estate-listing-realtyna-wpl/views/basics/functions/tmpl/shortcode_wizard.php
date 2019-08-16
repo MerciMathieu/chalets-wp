@@ -75,12 +75,12 @@ defined('_WPLEXEC') or die('Restricted access');
         
         <div class="plugin-row wpl_shortcode_parameter wpl_hidden_element pr_property_listing">
             <?php $units = wpl_units::get_units(4); ?>
-            <label for="pr_price_unit_selectbox"><?php echo __('Price Unit', 'real-estate-listing-realtyna-wpl'); ?></label>
-            <select id="pr_price_unit_selectbox" name="sf_unit_price">
+            <label for="pr_price_unit_selectbox"><?php echo __('Price Unit', 'real-estate-listing-realtyna-wpl'); ?> (en &euro;)</label>
+            <!--<select id="pr_price_unit_selectbox" name="sf_unit_price">
                 <?php foreach($units as $unit): ?>
 				<option value="<?php echo $unit['id']; ?>"><?php echo __($unit['name'], 'real-estate-listing-realtyna-wpl'); ?></option>
                 <?php endforeach; ?>
-            </select>
+            </select>-->
         </div>
         
         <?php $tags = wpl_flex::get_tag_fields(0); foreach($tags as $tag): ?>

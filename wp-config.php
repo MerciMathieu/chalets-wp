@@ -19,8 +19,6 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('WP_CACHE', true);
-define( 'WPCACHEHOME', 'C:\wamp64\www\chalets_et_caviar-wp\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'chalets_et_caviar' );
 
 /** Utilisateur de la base de données MySQL. */
