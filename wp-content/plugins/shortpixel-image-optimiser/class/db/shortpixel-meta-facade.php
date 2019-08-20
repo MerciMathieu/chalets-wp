@@ -1,4 +1,5 @@
 <?php
+use ShortPixel\ShortPixelLogger\ShortPixelLogger as Log;
 
 class ShortPixelMetaFacade {
     const MEDIA_LIBRARY_TYPE = 1;
@@ -100,7 +101,8 @@ class ShortPixelMetaFacade {
         return $rawMeta;
     }
 
-    function updateMeta($newMeta = null, $replaceThumbs = false) {
+    // @todo Find out the use of this function. Doesn't update_meta unless it's WPML.
+    public function updateMeta($newMeta = null, $replaceThumbs = false) {
         if($newMeta) {
             $this->meta = $newMeta;
         }
@@ -112,6 +114,7 @@ class ShortPixelMetaFacade {
         }
         elseif($this->type == ShortPixelMetaFacade::MEDIA_LIBRARY_TYPE) {
             $duplicates = ShortPixelMetaFacade::getWPMLDuplicates($this->ID);
+            Log::addDebug('Update Meta Duplicates Query', array($duplicates));
             foreach($duplicates as $_ID) {
                 $rawMeta = $this->sanitizeMeta(wp_get_attachment_metadata($_ID));
 
@@ -210,11 +213,15 @@ class ShortPixelMetaFacade {
                 if($_ID == $this->ID) {
                     $this->rawMeta = $rawMeta;
                 }
-            }
+            } // duplicates loop
         }
     }
 
-    function cleanupMeta($fakeOptPending = false) {
+
+    /** Clean meta set by Shortpixel
+    * This function only hits with images that were optimized, pending or have an error state.
+    */
+    public function cleanupMeta($fakeOptPending = false) {
         if($this->type == ShortPixelMetaFacade::MEDIA_LIBRARY_TYPE) {
             if(!isset($this->rawMeta)) {
                 $rawMeta = $this->sanitizeMeta(wp_get_attachment_metadata($this->getId()));
@@ -231,6 +238,17 @@ class ShortPixelMetaFacade {
                 unset($rawMeta["ShortPixelImprovement"]);
                 unset($rawMeta['ShortPixel']);
                 unset($rawMeta['ShortPixelPng2Jpg']);
+            }
+            if (isset($rawMeta['sizes'])) // search for custom sizes set by SP.
+            {
+              foreach($rawMeta['sizes'] as $size => $data)
+              {
+                  if (strpos($size, ShortPixelMeta::FOUND_THUMB_PREFIX) !== false)
+                  {
+                    unset($rawMeta['sizes'][$size]);
+                    Log::addDebug('Unset sp-found- size' . $size);
+                  }
+              }
             }
             unset($this->meta);
             update_post_meta($this->ID, '_wp_attachment_metadata', $rawMeta);
@@ -430,6 +448,23 @@ class ShortPixelMetaFacade {
                     $origPath = $tPath = str_replace(ShortPixelAPI::MB_basename($path), $thumbnailInfo['file'], $path);
                     $file_exists = apply_filters('shortpixel_image_exists', file_exists($origPath), $origPath, $this->ID);
                     $tUrl = str_replace(ShortPixelAPI::MB_basename($url), $thumbnailInfo['file'], $url);
+
+                    // Working on low-key replacement for path handling via FileSystemController.
+                    // This specific fix is related to the possibility of URLs' in metadata
+                    if ( !$file_exists && !file_exists($tPath) )
+                    {
+                        $fs = new \ShortPixel\FileSystemController();
+                        $file = $fs->getFile($thumbnailInfo['file']);
+
+                        if ($file->exists())
+                        {
+                          $tPath = $file->getFullPath();
+                          $fsUrl = $fs->pathToUrl($file);
+                          if ($fsUrl !== false)
+                            $tUrl = $fsUrl; // more secure way of getting url
+                        }
+                    }
+
                     if ( !$file_exists && !file_exists($tPath) ) {
                         $tPath = SHORTPIXEL_UPLOADS_BASE . substr($tPath, strpos($tPath, $StichString) + strlen($StichString));
                     }
@@ -463,7 +498,7 @@ class ShortPixelMetaFacade {
                 }
             }
             if(!count($sizes)) {
-                WPShortPixel::log("getURLsAndPATHs: no meta sizes for ID " . $this->ID . " : " . json_encode($this->rawMeta));
+                Log::addInfo("getURLsAndPATHs: no meta sizes for ID " . $this->ID . " : " . json_encode($this->rawMeta));
             }
 
             if($onlyThumbs && $mainExists && count($urlList) >= 1) { //remove the main image
@@ -687,7 +722,7 @@ class ShortPixelMetaFacade {
         $file = wp_normalize_path($file);
 
       //  $sp__uploads = wp_upload_dir();
-      
+
         if(strstr($file, $hp)) {
             $path = str_replace( $hp, "", $file);
         } elseif( strstr($file, dirname( WP_CONTENT_DIR ))) { //in some situations the content dir is not inside the root, check this also (ex. single.shortpixel.com)

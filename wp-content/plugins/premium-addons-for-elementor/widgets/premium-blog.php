@@ -730,7 +730,7 @@ class Premium_Blog extends Widget_Base {
         
         $this->add_control('premium_blog_plus_color',
             [
-                'label'         => __('Icon Color', 'premium-addons-for-elementor'),
+                'label'         => __('Plus Sign Color', 'premium-addons-for-elementor'),
                 'type'          => Controls_Manager::COLOR,
                 'scheme'        => [
                     'type'  => Scheme_Color::get_type(),

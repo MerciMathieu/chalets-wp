@@ -136,6 +136,7 @@ class Premium_Title extends Widget_Base {
                         ],
                     ],
                 'default'       => 'left',
+                'toggle'        => false,
                 'selectors'     => [
                     '{{WRAPPER}} .premium-title-container' => 'text-align: {{VALUE}};',
                 ],
@@ -156,7 +157,7 @@ class Premium_Title extends Widget_Base {
                     'size'  => '120',
                 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip:before' => 'width: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .premium-title-style7-stripe' => 'width: {{SIZE}}{{UNIT}};',
                 ],
                 'label_block'   => true,
                 'condition'     => [
@@ -177,7 +178,7 @@ class Premium_Title extends Widget_Base {
                 ],
                 'label_block'   => true,
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip,{{WRAPPER}} .premium-title-style7-strip:before ' => 'height: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .premium-title-style7-stripe' => 'height: {{SIZE}}{{UNIT}};',
                 ],
                 'condition'     => [
                     'premium_title_style'   => 'style7',
@@ -192,7 +193,7 @@ class Premium_Title extends Widget_Base {
                 'type'          => Controls_Manager::SLIDER,
                 'size_units'    => ['px', '%', 'em'],
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip' => 'margin-top: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .premium-title-style7-stripe-wrap' => 'margin-top: {{SIZE}}{{UNIT}};',
                 ],
                 'label_block'   => true,
                 'condition'     => [
@@ -209,7 +210,7 @@ class Premium_Title extends Widget_Base {
                 'size_units'    => ['px', '%', 'em'],
                 'label_block'   => true,
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip' => 'margin-bottom: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .premium-title-style7-stripe-wrap' => 'margin-bottom: {{SIZE}}{{UNIT}};',
                 ],
                 'condition'     => [
                     'premium_title_style'   => 'style7',
@@ -217,28 +218,29 @@ class Premium_Title extends Widget_Base {
             ]
         );
         
-        /*Title Align*/
+        /*Stripe Align*/
         $this->add_responsive_control('premium_title_style7_strip_align',
             [
-                'label'         => __( 'Align', 'premium-addons-for-elementor' ),
+                'label'         => __( 'Stripe Alignment', 'premium-addons-for-elementor' ),
                 'type'          => Controls_Manager::CHOOSE,
                 'options'       => [
-                    'left'      => [
-                        'title'=> __( 'Left', 'premium-addons-for-elementor' ),
-                        'icon' => 'fa fa-align-left',
+                    'flex-start'    => [
+                        'title' => __( 'Left', 'premium-addons-for-elementor' ),
+                        'icon'  => 'fa fa-align-left',
                         ],
-                    'none'    => [
-                        'title'=> __( 'Center', 'premium-addons-for-elementor' ),
-                        'icon' => 'fa fa-align-center',
+                    'center'        => [
+                        'title' => __( 'Center', 'premium-addons-for-elementor' ),
+                        'icon'  => 'fa fa-align-center',
                         ],
-                    'right'     => [
+                    'flex-end'     => [
                         'title'=> __( 'Right', 'premium-addons-for-elementor' ),
                         'icon' => 'fa fa-align-right',
-                        ],
-                    ],  
-                'default'       => 'none',
+                    ],
+                ],
+                'toggle'        => false,
+                'default'       => 'center',
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip:before' => 'float: {{VALUE}};',
+                    '{{WRAPPER}} .premium-title-style7-stripe-wrap' => 'justify-content: {{VALUE}};',
                 ],
                 'condition'     => [
                     'premium_title_style'   => 'style7',
@@ -388,7 +390,7 @@ class Premium_Title extends Widget_Base {
             ]
         );
        
-        /*Triangle Color*/
+        /*Arrow Color*/
         $this->add_control('premium_title_style6_triangle_color', 
             [
                 'label'         => __('Triangle Color', 'premium-addons-for-elementor'),
@@ -416,7 +418,7 @@ class Premium_Title extends Widget_Base {
                     'value' => Scheme_Color::COLOR_1
                 ],
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-title-style7-strip:before' => 'background-color: {{VALUE}};'
+                    '{{WRAPPER}} .premium-title-style7-stripe' => 'background-color: {{VALUE}};'
                 ],
                 'condition'     => [
                     'premium_title_style'   => 'style7'
@@ -575,7 +577,9 @@ class Premium_Title extends Widget_Base {
     <div <?php echo $this->get_render_attribute_string('container'); ?>>
         <<?php echo $title_tag . ' ' . $this->get_render_attribute_string('title') ; ?>>
             <?php if ( $settings['premium_title_style'] === 'style7' ) : ?>
-                <span class="premium-title-style7-strip"></span>
+                <span class="premium-title-style7-stripe-wrap">
+                    <span class="premium-title-style7-stripe"></span>
+                </span>
             <?php endif; ?>
             <?php if( ! empty( $settings['premium_title_icon'] ) ) : ?>
                 <i class="premium-title-icon <?php echo $settings['premium_title_icon'];?>"></i>
@@ -615,7 +619,9 @@ class Premium_Title extends Widget_Base {
         <div {{{ view.getRenderAttributeString('premium_title_container') }}}>
             <{{{titleTag}}} {{{view.getRenderAttributeString('premium_title')}}}>
                 <# if( selectedStyle == 'style7' ) { #>
-                    <span class="premium-title-style7-strip"></span>
+                    <span class="premium-title-style7-stripe-wrap">
+                        <span class="premium-title-style7-stripe"></span>
+                    </span>
                 <# } 
                     if( '' != settings.premium_title_icon && 'yes' == settings.premium_title_icon_switcher ) { #>
                         <i {{{ view.getRenderAttributeString('premium_title_icon') }}}></i>

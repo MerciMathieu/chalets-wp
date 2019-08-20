@@ -67,7 +67,7 @@ class Premium_Counter extends Widget_Base {
         
 		$this->add_control('premium_counter_start_value',
 			[
-				'label'			=> __( 'Start Number', 'premium-addons-for-elementor' ),
+				'label'			=> __( 'Starting Number', 'premium-addons-for-elementor' ),
 				'type'			=> Controls_Manager::NUMBER,
 				'default'		=> 0
 			]
@@ -75,7 +75,7 @@ class Premium_Counter extends Widget_Base {
         
         $this->add_control('premium_counter_end_value',
 			[
-				'label'			=> __( 'End Number', 'premium-addons-for-elementor' ),
+				'label'			=> __( 'Ending Number', 'premium-addons-for-elementor' ),
 				'type'			=> Controls_Manager::NUMBER,
 				'default'		=> 500
 			]
@@ -509,10 +509,7 @@ class Premium_Counter extends Widget_Base {
 	}
     
     public function get_counter_content($settings, $direction) {
-        
-//      $d_after 		= intval( $settings['premium_counter_d_after'] );
-// 		$d_s = $settings['premium_counter_d_separator'];
-// 		$t_s = $settings['premium_counter_t_separator'];
+
         $start_value = $settings['premium_counter_start_value'];
         
     ?>
@@ -572,18 +569,7 @@ class Premium_Counter extends Widget_Base {
 		$settings = $this->get_settings_for_display();
 
         $this->add_inline_editing_attributes('premium_counter_title');
-            
-//        $separator = $settings['premium_counter_t_separator'];
-//        
-//        $decimal = $settings['premium_counter_d_separator'];
-		
-//        if( $settings['premium_counter_icon_image'] == 'icon' ) {
-//			$icon_image = '<i class="' . $settings['premium_counter_icon'] .'"></i>';
-//		} else {
-//            $alt = esc_attr( Control_Media::get_image_alt( $settings['premium_counter_image_upload'] ) );
-//			$icon_image = '<img class="custom-image" src="'.$settings['premium_counter_image_upload']['url'] . '" alt="' . $alt . '">';
-//		}
-
+         
 		$position = $settings['premium_counter_icon_position'];
 		
         $center = $position == 'top' ? ' center' : '';
@@ -594,27 +580,14 @@ class Premium_Counter extends Widget_Base {
  		if( $settings['premium_counter_icon_image'] == 'custom' && $settings['premium_counter_icon_style'] == 'simple' ) {
  			$flex_width = ' flex-width ';
  		}
-
-// 		$counter_settings = [
-//            'id'            => $this->get_id(),
-//            'toValue'		=> $settings['premium_counter_end_value'],
-//            'speed'			=> $settings['premium_counter_speed'],
-//            'separator'		=> $separator,
-//            'decimal'		=> $decimal,
-// 		];
-        
-        //$this->add_render_attribute( 'counter', 'id', 'counter-wrapper-'. $this->get_id() );
-        
-        //$this->add_render_attribute( 'counter', 'class', [ 'premium-counter', 'premium-counter-area' . $center ] );
-        
-        //$this->add_render_attribute( 'counter', 'data-settings', wp_json_encode( $counter_settings ) );
         
         $this->add_render_attribute( 'counter', [
-                'class' => [ 'premium-counter', 'premium-counter-area' . $center ],
-                'data-duration' => $settings['premium_counter_speed'] * 1000,
-                'data-to-value' => $settings['premium_counter_end_value'],
-                'data-delimiter'=>  empty( $settings['premium_counter_t_separator'] ) ? ',' : $settings['premium_counter_t_separator'],
-                'data-rounding' => empty ( $settings['premium_counter_d_after'] ) ? 0  : $settings['premium_counter_d_after']
+                'class' 			=> [ 'premium-counter', 'premium-counter-area' . $center ],
+				'data-duration' 	=> $settings['premium_counter_speed'] * 1000,
+				'data-from-value' 	=> $settings['premium_counter_start_value'],
+				'data-to-value' 	=> $settings['premium_counter_end_value'],
+                'data-delimiter'	=>  empty( $settings['premium_counter_t_separator'] ) ? ',' : $settings['premium_counter_t_separator'],
+                'data-rounding' 	=> empty ( $settings['premium_counter_d_after'] ) ? 0  : $settings['premium_counter_d_after']
             ]
         );
 
@@ -664,6 +637,7 @@ class Premium_Counter extends Widget_Base {
             
             view.addRenderAttribute( 'counter', 'class', [ 'premium-counter', 'premium-counter-area' + center ] );
             view.addRenderAttribute( 'counter', 'data-duration', settings.premium_counter_speed * 1000 );
+			view.addRenderAttribute( 'counter', 'data-from-value', settings.premium_counter_start_value );
             view.addRenderAttribute( 'counter', 'data-to-value', settings.premium_counter_end_value );
             view.addRenderAttribute( 'counter', 'data-delimiter', delimiter );
             view.addRenderAttribute( 'counter', 'data-rounding', round );

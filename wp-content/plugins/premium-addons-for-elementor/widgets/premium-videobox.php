@@ -166,7 +166,17 @@ class Premium_Videobox extends Widget_Base {
             [
                 'label'         => __('Mute', 'premium-addons-for-elementor'),
                 'type'          => Controls_Manager::SWITCHER,
-                'description'   => __('This will play the video muted')
+                'description'   => __('This will play the video muted', 'premium-addons-for-elementor')
+            ]
+        );
+        
+        $this->add_control('premium_video_box_self_autoplay',
+            [
+                'label'         => __('Autoplay', 'premium-addons-for-elementor'),
+                'type'          => Controls_Manager::SWITCHER,
+                'condition'   => [
+                    'premium_video_box_video_type' => 'self'
+                ]
             ]
         );
         
@@ -629,17 +639,15 @@ class Premium_Videobox extends Widget_Base {
 
     protected function render() {
         
-        $settings = $this->get_settings_for_display();
+        $settings   = $this->get_settings_for_display();
         
-        $id = $this->get_id();
+        $id         = $this->get_id();
         
-        $params = $this->get_video_params();
+        $params     = $this->get_video_params();
         
-        $image = $this->get_video_thumbnail( $params['id'] );
+        $image      = $this->get_video_thumbnail( $params['id'] );
         
-        $link = $params['link'];
-        
-        $this->add_inline_editing_attributes('premium_video_box_description_text');
+        $link       = $params['link'];
         
         $video_type = $settings['premium_video_box_video_type'];
         
@@ -695,7 +703,11 @@ class Premium_Videobox extends Widget_Base {
         }
         
         if( 'self' === $video_type ) {
+            
             $video_params = '';
+            
+            $autoplay = $settings['premium_video_box_self_autoplay'];
+            
             if( $controls ) {
                 $video_params .= 'controls ';
             }
@@ -705,8 +717,13 @@ class Premium_Videobox extends Widget_Base {
             if( $loop ) {
                 $video_params .= 'loop ';
             }
+            if( $autoplay ) {
+                $video_params .= 'autoplay';
+            }
             
         }
+        
+        $this->add_inline_editing_attributes( 'premium_video_box_description_text' );
         
         $this->add_render_attribute('container', [
                 'id'    => 'premium-video-box-container-' . $id,
@@ -756,17 +773,17 @@ class Premium_Videobox extends Widget_Base {
     
     private function get_video_thumbnail( $id = '' ) {
         
-        $settings = $this->get_settings_for_display();
+        $settings       = $this->get_settings_for_display();
         
-        $type = $settings['premium_video_box_video_type'];
+        $type           = $settings['premium_video_box_video_type'];
         
-        $thumbnail = $settings['premium_video_box_image_switcher'];
+        $thumbnail      = $settings['premium_video_box_image_switcher'];
         
-        $thumbnail_src = $settings['premium_video_box_image']['url'];
+        $thumbnail_src  = $settings['premium_video_box_image']['url'];
         
         if ( 'yes' !== $thumbnail ) {
             if ('youtube' === $type ) {
-                $thumbnail_src = sprintf('https://i.ytimg.com/vi/%s/maxresdefault.jpg', $id );
+                $thumbnail_src = sprintf('https://i.ytimg.com/vi/%s/sddefault.jpg', $id );
             } elseif ('vimeo' === $type ) {
                
                 $vimeo_data         = wp_remote_get( 'http://www.vimeo.com/api/v2/video/' . intval( $id ) . '.php' );
@@ -786,17 +803,17 @@ class Premium_Videobox extends Widget_Base {
     
     private function get_video_params() {
         
-        $settings = $this->get_settings_for_display();
+        $settings   = $this->get_settings_for_display();
         
-        $type = $settings['premium_video_box_video_type'];
+        $type       = $settings['premium_video_box_video_type'];
         
         $identifier = $settings['premium_video_box_video_id_embed_selection'];
         
-        $id = $settings['premium_video_box_video_id'];
+        $id         = $settings['premium_video_box_video_id'];
         
-        $embed = $settings['premium_video_box_video_embed'];
+        $embed      = $settings['premium_video_box_video_embed'];
         
-        $link = $settings['premium_video_box_link'];
+        $link       = $settings['premium_video_box_link'];
         
         if ( ! empty( $link ) ) {
             if ( 'youtube' === $type ) {

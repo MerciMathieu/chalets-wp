@@ -4,7 +4,7 @@ Tags: compressor, image, compression, optimize, image optimizer, image optimiser
 Requires at least: 3.2.0
 Tested up to: 5.2
 Requires PHP: 5.3
-Stable tag: 4.14.3
+Stable tag: 4.14.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ ShortPixel is an easy to use, lightweight, install-and-forget-about-it <a href="
 
 Short Pixel uses minimal resources and works well with any shared, cloud, VPS or dedicated web hosting. It can optimize any image you have on your website even the images that aren't listed in Media Library like those in galleries like <a href="https://wordpress.org/plugins/nextgen-gallery/" target="_blank">NextGEN</a>, <a href="https://wordpress.org/plugins/modula-best-grid-gallery/" target="_blank">Modula</a> or added directly via FTP!
 
-Both lossy and lossless image compression is available for the most common image types (JPG, PNG, GIF and WebP) plus PDF files.
+Both lossy and lossless image compression are available for the most common image types (JPG, PNG, GIF and WebP) plus PDF files.
 We also offer **glossy** JPEG compression which is a very high quality lossy optimization algorithm. Specially designed for photographers!
 Optimized images mean better user experience, better PageSpeed Insights or GTmetrix results, better Google PageRank and more visitors.
 
@@ -245,6 +245,14 @@ define('SHORTPIXEL_CUSTOM_THUMB_INFIXES', '-uae'); will handle custom thumbnails
 9. Check other optimized images status - themes or other plugins' images. (Media>Other Media)
 
 == Changelog ==
+
+= 4.14.4 =
+Release date: 19th August 2019
+* Check if unlisted thumbnails present for already optimized images (in case the thumbnails were added later) in Media Library list and when doing bulk. This also integrates with the Unicode plugin.
+* If JSON PHP module not present, add a proper error
+* Fixed: bulk error "WordPress database error You have an error in your SQL syntax" on some installs
+* Fixed: Warning: count() Parameter must be an array.
+* Language – 0 new strings added, 0 updated, 0 fuzzied, and 0 obsoleted
 
 == 4.14.3 ==
 
