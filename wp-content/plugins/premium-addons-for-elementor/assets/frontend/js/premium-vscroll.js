@@ -1,13 +1,9 @@
-// Works on mobile but needs enhancements
-
 (function($) {
     /****** Premium Vertical Scroll Handler ******/
     var PremiumVerticalScrollHandler = function( $scope, $ ) {
         var vScrollElem = $scope.find(".premium-vscroll-wrap"),
             instance = null,
             vScrollSettings = vScrollElem.data("settings");
-
-        //    var touch = vScrollSettings.touch;
 
         instance = new premiumVerticalScroll(vScrollElem, vScrollSettings);
         instance.init();
@@ -286,24 +282,6 @@
 
             $( ".premium-vscroll-tooltip" ).hide();
             
-//            if ( dotIndex === $itemsList.length - 1 && ! $vTarget ) {
-//
-//              $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).addClass( "premium-vscroll-dots-hide" );
-//
-//            } else if ( dotIndex === 0 && ! $vTarget ) {
-//
-//              if ( $instance.offset().top - $( document ).scrollTop() > 200 ) {
-//
-//                $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).addClass( "premium-vscroll-dots-hide" );
-//
-//              }
-//
-//            } else {
-//
-//              $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).removeClass( "premium-vscroll-dots-hide" );
-//
-//            }
-
             if ( beforeCheck() ) {
 
                 sectionId = self.getFirstSection( sections );
@@ -325,127 +303,64 @@
                 direction = 'up';
 
             }
-
-//            if ( Math.abs( touchStartY - touchEndY ) > ( window.innerHeight / 100 * 100 ) ) {
                 
-//                if ( sectionId && sections.hasOwnProperty( sectionId ) ) {
-//                    
-//                    prevSectionId = self.checkPrevSection( sections, sectionId );
-//                    nextSectionId = self.checkNextSection( sections, sectionId );
-//                    
-//                    if ( "up" === direction ) {
-//
-//                        if ( ! nextSectionId && sections[ sectionId ].offset < windowScrollTop ) {
-//                            newSectionId = sectionId;
-//                        } else {
-//                            newSectionId = prevSectionId;
-//                        }
-//                    }
-//
-//                    if ( "down" === direction ) {
-//
-//                        if ( ! prevSectionId && sections[ sectionId ].offset > windowScrollTop + 5 ) {
-//                          newSectionId = sectionId;
-//                        } else {
-//                          newSectionId = nextSectionId;
-//                        }
-//                    }
-//                    
-//                    if ( newSectionId ) {
-//                        
-//                        inScope = true;
-//                        
-//                        $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).removeClass( "premium-vscroll-dots-hide" );
-//                        
-//                        self.scrolling( newSectionId );
-//                        
-//                    } else {
-//                        inScope = false;
-//                        
-//                        var $lastselector = checkTemps ? $instance : $( "#" + sectionId );
-//
-//                        if ( "down" === direction ) {
-//
-//                          if ( $lastselector.offset().top + $lastselector.innerHeight() - $( document ).scrollTop() > 600 ) {
-//
-//                            $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).addClass( "premium-vscroll-dots-hide" );
-//
-//                          }
-//
-//                        } else if ( "up" === direction ) {
-//
-//                          if ( $lastselector.offset().top - $( document ).scrollTop() > 200 ) {
-//
-//                            $(".premium-vscroll-dots, .premium-vscroll-nav-menu").addClass( "premium-vscroll-dots-hide" );
-//
-//                          }
-//
-//                        }
-//                    }
-//
-//                }
+            if ( sectionId && sections.hasOwnProperty( sectionId ) ) {
 
-//            } else {
-                
-                if ( sectionId && sections.hasOwnProperty( sectionId ) ) {
-                    
-                    prevSectionId = self.checkPrevSection( sections, sectionId );
-                    nextSectionId = self.checkNextSection( sections, sectionId );
-                    
-                    if ( "up" === direction ) {
+                prevSectionId = self.checkPrevSection( sections, sectionId );
+                nextSectionId = self.checkNextSection( sections, sectionId );
 
-                        if ( ! nextSectionId && sections[ sectionId ].offset < windowScrollTop ) {
-                            newSectionId = sectionId;
-                        } else {
-                            newSectionId = prevSectionId;
-                        }
+                if ( "up" === direction ) {
+
+                    if ( ! nextSectionId && sections[ sectionId ].offset < windowScrollTop ) {
+                        newSectionId = sectionId;
+                    } else {
+                        newSectionId = prevSectionId;
                     }
+                }
+
+                if ( "down" === direction ) {
+
+                    if ( ! prevSectionId && sections[ sectionId ].offset > windowScrollTop + 5 || ! self.atBottom( sectionId ) ) {
+                      newSectionId = sectionId;
+                    } else {
+                      newSectionId = nextSectionId;
+                      sectionChanged = 1;
+                    }
+                }
+
+                if ( newSectionId ) {
+
+                    inScope = true;
+
+                    $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).removeClass( "premium-vscroll-dots-hide" );
+
+                    self.scrolling( newSectionId );
+
+                } else {
+                    inScope = false;
+
+                    var $lastselector = checkTemps ? $instance : $( "#" + sectionId );
 
                     if ( "down" === direction ) {
 
-                        if ( ! prevSectionId && sections[ sectionId ].offset > windowScrollTop + 5 || ! self.atBottom( sectionId ) ) {
-                          newSectionId = sectionId;
-                        } else {
-                          newSectionId = nextSectionId;
-                          sectionChanged = 1;
-                        }
+                      if ( $lastselector.offset().top + $lastselector.innerHeight() - $( document ).scrollTop() > 600 ) {
+
+                        $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).addClass( "premium-vscroll-dots-hide" );
+
+                      }
+
+                    } else if ( "up" === direction ) {
+
+                      if ( $lastselector.offset().top - $( document ).scrollTop() > 200 ) {
+
+                        $(".premium-vscroll-dots, .premium-vscroll-nav-menu").addClass( "premium-vscroll-dots-hide" );
+
+                      }
+
                     }
-                    
-                    if ( newSectionId ) {
-                        
-                        inScope = true;
-                        
-                        $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).removeClass( "premium-vscroll-dots-hide" );
-                        
-                        self.scrolling( newSectionId );
-                        
-                    } else {
-                        inScope = false;
-                        
-                        var $lastselector = checkTemps ? $instance : $( "#" + sectionId );
-
-                        if ( "down" === direction ) {
-
-                          if ( $lastselector.offset().top + $lastselector.innerHeight() - $( document ).scrollTop() > 600 ) {
-
-                            $( ".premium-vscroll-dots, .premium-vscroll-nav-menu" ).addClass( "premium-vscroll-dots-hide" );
-
-                          }
-
-                        } else if ( "up" === direction ) {
-
-                          if ( $lastselector.offset().top - $( document ).scrollTop() > 200 ) {
-
-                            $(".premium-vscroll-dots, .premium-vscroll-nav-menu").addClass( "premium-vscroll-dots-hide" );
-
-                          }
-
-                        }
-                    }
-
                 }
-                
-//            }
+
+            }
         
         };
 

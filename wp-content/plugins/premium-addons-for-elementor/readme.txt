@@ -5,7 +5,7 @@ Donate Link: https://premiumaddons.com/?utm_source=wp-repo&utm_medium=link&utm_c
 Requires at Least: 4.5
 Tested Up To: 5.2.2
 Requires PHP: 5.4
-Stable Tag: 3.6.5
+Stable Tag: 3.6.6
 License: GPL v3.0
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -13,7 +13,7 @@ Elementor Widgets and Addons like Vertical Scroll, Grid, Carousel, Google Maps, 
 
 == Description ==
 
-Supercharge your Elementor Page Builder with 50+ highly customizable widgets and add-ons that will give you the ability to build sophisticated websites in less time and with no coding required. Both Elementor and Premium Addons plugins take your WordPress website to the next level.
+Supercharge your Elementor Page Builder with 50+ highly customizable widgets and add-ons that will give you the ability to build sophisticated websites in less time with no coding required. Both Elementor and Premium Addons plugins take your WordPress website to the next level.
 
 [**Check Elementor Widgets & Addons Demo Pages**](https://premiumaddons.com/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme)
 
@@ -86,7 +86,7 @@ Each widget and addon has been tested on different screen sizes, mobile devices,
 * [**Unfold Widget**](https://premiumaddons.com/unfold-widget-for-elementor-page-builder/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*: Advanced way to fit long text in small area. Unfold Widget is a great trick as it will make your layout design look better.
 
 ### Social Feed Widgets
-* [**Facebook Feed Widget**](https://premiumaddons.com/facebook-feed-widget-for-elementor-page-builder-2/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*:  Show your Facebook Feed directly inside your website.
+* [**Facebook Feed Widget**](https://premiumaddons.com/elementor-facebook-feed-widget/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*:  Show your Facebook Feed directly inside your website.
 * [**Twitter Feed Widget**](https://premiumaddons.com/twitter-feed-widget-for-elementor-page-builder/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*: Display your Twitter Feed on your website pages.
 * [**Instagram Feed Widget**](https://premiumaddons.com/instagram-feed-widget-for-elementor-page-builder/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*: Show your Instagram photos right on your webpage using Instagram Feed Widget for Elementor.
 * [**Behance Feed Widget**](https://premiumaddons.com/behance-feed-widget-for-elementor-page-builder/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*: Show off your amazing profolio projects using Behance Feed Widget for Elementor Page Builder.
@@ -112,11 +112,11 @@ Each widget and addon has been tested on different screen sizes, mobile devices,
 * [**Divider Widget**](https://premiumaddons.com/divider-widget-for-elementor-page-builder/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) *(PRO)*: Design beautiful dividers with this unique Elementor widget.
 
 ## Support & Documentation
-* [**Documentation**](https://premiumaddons.com/docs/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) Search here first if you need to know how a widget for feature works or for troubleshooting.
-* [**Video Tutorials**](https://www.youtube.com/playlist?list=PLLpZVOYpMtTArB4hrlpSnDJB36D2sdoTv) This playlist includes many widgets' video tutorials we are adding more regularly.
-* [**Facebook Group**](https://www.facebook.com/groups/PremiumAddons/) A great please to get help or ask a question about Premium Addons.
-* [**Community Forums**](https://my.leap13.com/forums/forum/premium-addons-for-elementor-plugin-community-support/) Another good place to search for answers or post your own.
-* [**Support Ticket System**](https://my.leap13.com/contact-support/) For PRO users. We also welcome Free users issues which require access credentials to check. 
+* [**Documentation**](https://premiumaddons.com/docs/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme) Search here first if you need to know how a widget or feature works or for troubleshooting.
+* [**Video Tutorials**](https://www.youtube.com/playlist?list=PLLpZVOYpMtTArB4hrlpSnDJB36D2sdoTv) This playlist includes many widgets’ video tutorials. We are adding more regularly.
+* [**Facebook Group**](https://www.facebook.com/groups/PremiumAddons/) A great place to get help or ask a question about Premium Addons.
+* [**Community Forums**](https://my.leap13.com/forums/forum/premium-addons-for-elementor-plugin-community-support/) Another good place to search for answers or post your own question.
+* [**Support Ticket System**](https://my.leap13.com/contact-support/) We also welcome Free users’ issues which require access credentials to check.
 
 
 
@@ -173,6 +173,12 @@ Premium Addons for Elementor is 100% Ads Free, Ads can only be detected from You
 14. Premium Progress Bar Widget for Elementor
 
 == Changelog ==
+
+= 3.6.6 =
+
+- Fixed: `Notice: Undefined variable: col_number in /premium-blog.php on line 1752'
+- Fixed: Fatal error when WPML Multilingual inactive and WPML Strings Translation active.
+- Fixed: Margin Top/Bottom issue with multiple Carousel widgets on the same page.
 
 = 3.6.5 =
 

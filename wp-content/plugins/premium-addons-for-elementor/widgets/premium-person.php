@@ -666,7 +666,7 @@ class Premium_Person extends Widget_Base {
         
         <div {{{ view.getRenderAttributeString('container') }}} >
             <div class="premium-person-image-container">
-                <img src="{{ settings.premium_person_image.url}}" alt="{{ settings.premium_person_name }}">
+                <img src="{{ settings.premium_person_image.url }}" alt="{{ settings.premium_person_name }}">
             </div>
             <div class="premium-person-info">
                 <div class="premium-person-info-container">

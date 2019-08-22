@@ -38,7 +38,7 @@ if ( ! class_exists ('Premium_Addons_Wpml') ) {
        /*
         * Is WPML Active
         * 
-        * Check if WPML String Translation active
+        * Check if WPML Multilingual CMS and WPML String Translation active
         * 
         * @since 3.1.9
         * @access private
@@ -48,8 +48,12 @@ if ( ! class_exists ('Premium_Addons_Wpml') ) {
        public static function is_wpml_active() {
            
            include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-
-           return is_plugin_active( 'wpml-string-translation/plugin.php' );
+           
+           $wpml_active = is_plugin_active( 'sitepress-multilingual-cms/sitepress.php' );
+           
+           $string_translation_active = is_plugin_active( 'wpml-string-translation/plugin.php' );
+           
+           return $wpml_active && $string_translation_active;
            
        }
 

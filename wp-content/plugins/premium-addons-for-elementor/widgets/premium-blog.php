@@ -1728,6 +1728,9 @@ class Premium_Blog extends Widget_Base {
         $posts = premium_blog_get_post_data( $post_args, $paged , $new_offset );
         
         switch( $settings['premium_blog_columns_number'] ) {
+            case '100%' :
+                $col_number = 'col-1';
+                break;
             case '50%' :
                 $col_number = 'col-2';
                 break;

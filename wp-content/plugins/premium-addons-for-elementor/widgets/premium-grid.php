@@ -88,11 +88,10 @@ class Premium_Grid extends Widget_Base {
                 );
         
         $this->add_responsive_control('pemium_gallery_even_img_height',
-			[
-  				'label'             => __( 'Maximum Height', 'premium-addons-for-elementor' ),
+			[ 
+ 				'label'             => __( 'Minimum Height', 'premium-addons-for-elementor' ),
 				'label_block'       => true,
                 'size_units'        => ['px', 'em', 'vh'],
-                'description'       => __('You may need to click `Apply` button after settings this option', 'premium-addons-for-elementor'),
 				'type'              => Controls_Manager::SLIDER,
                 'range'             => [
                     'px'    => [
@@ -109,7 +108,7 @@ class Premium_Grid extends Widget_Base {
                     'premium_gallery_img_size_select'   => 'fitRows'
                 ],
                 'selectors'         => [
-                    '{{WRAPPER}} .premium-gallery-item .pa-gallery-image' => 'max-height: {{SIZE}}{{UNIT}}'
+                    '{{WRAPPER}} .premium-gallery-item .pa-gallery-image' => 'min-height: {{SIZE}}{{UNIT}}'
                 ]
 			]
 		);

@@ -380,246 +380,215 @@
 
     /****** Premium Carousel Handler ******/
     var PremiumCarouselHandler = function ($scope, $) {
-        var isEdit = elementorFrontend.isEditMode();
+        
+        var carouselElement     = $scope.find(".premium-carousel-wrapper"),
+            carouselSettings    = $( carouselElement ).data("settings"),
+            isEdit              = elementorFrontend.isEditMode();
 
-        var carouselElement = $scope
-            .find(".premium-carousel-wrapper")
-            .each(function () {
-                var $carouselElement = $(this);
-                var carouselSettings = $(this).data("settings");
+            function slideToShow( slick ) {
 
-                function slideToShow(slick) {
-                    slidesToShow = slick.options.slidesToShow;
+                var slidesToShow = slick.options.slidesToShow,
+                    windowWidth = $( window ).width();
 
-                    windowWidth = jQuery(window).width();
-
-                    if (windowWidth > carouselSettings["tabletBreak"]) {
-                        slidesToShow = carouselSettings["slidesDesk"];
-                    }
-
-                    if (windowWidth <= carouselSettings["tabletBreak"]) {
-                        slidesToShow = carouselSettings["slidesTab"];
-                    }
-
-                    if (windowWidth <= carouselSettings["mobileBreak"]) {
-                        slidesToShow = carouselSettings["slidesMob"];
-                    }
-
-                    return slidesToShow;
+                if ( windowWidth > carouselSettings["tabletBreak"] ) {
+                    slidesToShow = carouselSettings["slidesDesk"];
                 }
 
-                if (isEdit) {
-                    $(this)
-                        .find(".item-wrapper")
-                        .each(function (index, slide) {
-                            var templateID = $(slide).data("template");
+                if ( windowWidth <= carouselSettings["tabletBreak"] ) {
+                    slidesToShow = carouselSettings["slidesTab"];
+                }
 
-                            if (undefined !== templateID) {
-                                $.ajax({
-                                    type: "GET",
-                                    url: PremiumProSettings.ajaxurl,
-                                    dataType: "html",
-                                    data: {
-                                        action:
-                                            "get_elementor_template_content",
-                                        templateID: templateID
-                                    }
-                                }).success(function (response) {
-                                    var data = JSON.parse(response).data;
+                if ( windowWidth <= carouselSettings["mobileBreak"] ) {
+                    slidesToShow = carouselSettings["slidesMob"];
+                }
 
-                                    if (undefined !== data.template_content) {
-                                        $(slide).html(data.template_content);
+                return slidesToShow;
+            }
 
-                                        $carouselElement
-                                            .find(".premium-carousel-inner")
-                                            .slick("refresh");
-                                    }
-                                });
+            if ( isEdit ) {
+                carouselElement.find(".item-wrapper").each(function ( index, slide ) {
+                    
+                    var templateID = $(slide).data("template");
+
+                    if (undefined !== templateID) {
+                        $.ajax({
+                            type: "GET",
+                            url: PremiumProSettings.ajaxurl,
+                            dataType: "html",
+                            data: {
+                                action:
+                                    "get_elementor_template_content",
+                                templateID: templateID
+                            }
+                        }).success(function (response) {
+                            var data = JSON.parse(response).data;
+
+                            if (undefined !== data.template_content) {
+                                $(slide).html(data.template_content);
+
+                                carouselElement.find(".premium-carousel-inner").slick("refresh");
                             }
                         });
-
-                    //            $( this ).find( ".premium-carousel-inner" ).slick( 'refresh' );
-                }
-
-                $(this).on("init", function (event) {
-                    event.preventDefault();
-
-                    $(this)
-                        .find("item-wrapper.slick-active")
-                        .each(function () {
-                            $this = $(this);
-                            $this.addClass($this.data("animation"));
-                        });
-
-                    $(".slick-track").addClass("translate");
-                });
-
-                $(this)
-                    .find(".premium-carousel-inner")
-                    .slick({
-                        vertical: carouselSettings["vertical"],
-                        slidesToScroll: carouselSettings["slidesToScroll"],
-                        slidesToShow: carouselSettings["slidesToShow"],
-                        responsive: [
-                            {
-                                breakpoint: carouselSettings["tabletBreak"],
-                                settings: {
-                                    slidesToShow: carouselSettings["slidesTab"],
-                                    slidesToScroll:
-                                        carouselSettings["slidesTab"]
-                                }
-                            },
-                            {
-                                breakpoint: carouselSettings["mobileBreak"],
-                                settings: {
-                                    slidesToShow: carouselSettings["slidesMob"],
-                                    slidesToScroll:
-                                        carouselSettings["slidesMob"]
-                                }
-                            }
-                        ],
-                        fade: carouselSettings["fade"],
-                        infinite: carouselSettings["infinite"],
-                        speed: carouselSettings["speed"],
-                        autoplay: carouselSettings["autoplay"],
-                        autoplaySpeed: carouselSettings["autoplaySpeed"],
-                        draggable: carouselSettings["draggable"],
-                        touchMove: carouselSettings["touchMove"],
-                        rtl: carouselSettings["rtl"],
-                        useTransform: true,
-                        adaptiveHeight: carouselSettings["adaptiveHeight"],
-                        pauseOnHover: carouselSettings["pauseOnHover"],
-                        centerMode: carouselSettings["centerMode"],
-                        centerPadding: carouselSettings["centerPadding"],
-                        arrows: carouselSettings["arrows"],
-                        nextArrow: carouselSettings["nextArrow"],
-                        prevArrow: carouselSettings["prevArrow"],
-                        dots: carouselSettings["dots"],
-                        customPaging: function (slider, i) {
-                            return (
-                                '<i class="' +
-                                carouselSettings["customPaging"] +
-                                '"></i>'
-                            );
-                        }
-                    });
-
-                $(this).on("afterChange", function (
-                    event,
-                    slick,
-                    currentSlide,
-                    nextSlide
-                ) {
-                    slidesScrolled = slick.options.slidesToScroll;
-                    slidesToShow = slideToShow(slick);
-                    centerMode = slick.options.centerMode;
-                    $currentParent = slick.$slider[0].parentElement.id;
-                    slideToAnimate = currentSlide + slidesToShow - 1;
-                    if (slidesScrolled == 1) {
-                        if (centerMode == true) {
-                            animate = slideToAnimate - 2;
-                            $inViewPort = $(this).find(
-                                "[data-slick-index='" + animate + "']"
-                            );
-                            //$inViewPort.addClass($inViewPort.data("animation"));
-                        } else {
-                            $inViewPort = $(this).find(
-                                "[data-slick-index='" + slideToAnimate + "']"
-                            );
-                            if ("null" != carouselSettings["animation"]) {
-                                $inViewPort
-                                    .find(
-                                        "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button"
-                                    )
-                                    .addClass(carouselSettings["animation"])
-                                    .removeClass(
-                                        "premium-carousel-content-hidden"
-                                    );
-                            }
-                        }
-                    } else {
-                        for (
-                            var i = slidesScrolled + currentSlide;
-                            i >= 0;
-                            i--
-                        ) {
-                            $inViewPort = $(this).find(
-                                "[data-slick-index='" + i + "']"
-                            );
-                            if ("null" != carouselSettings["animation"]) {
-                                $inViewPort
-                                    .find(
-                                        "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button"
-                                    )
-                                    .addClass(carouselSettings["animation"])
-                                    .removeClass(
-                                        "premium-carousel-content-hidden"
-                                    );
-                            }
-                        }
                     }
                 });
 
-                $(this).on("beforeChange", function (
-                    event,
-                    slick,
-                    currentSlide
-                ) {
-                    $inViewPort = $(this).find(
-                        "[data-slick-index='" + currentSlide + "']"
-                    );
-                    if ("null" != carouselSettings["animation"]) {
-                        $inViewPort
-                            .siblings()
-                            .find(
-                                "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button"
-                            )
-                            .removeClass(carouselSettings["animation"])
-                            .addClass("premium-carousel-content-hidden");
-                    }
+            }
+
+            carouselElement.on("init", function (event) {
+                event.preventDefault();
+
+                $(this).find("item-wrapper.slick-active").each(function () {
+                    var $this = $( this );
+                    $this.addClass($this.data("animation"));
                 });
-                if (carouselSettings["vertical"]) {
-                    var maxHeight = -1;
-                    $(".slick-slide").each(function () {
-                        if ($(this).height() > maxHeight) {
-                            maxHeight = $(this).height();
-                        }
-                    });
-                    $(".slick-slide").each(function () {
-                        if ($(this).height() < maxHeight) {
-                            $(this).css(
-                                "margin",
-                                Math.ceil((maxHeight - $(this).height()) / 2) +
-                                "px 0"
-                            );
-                        }
-                    });
-                }
-                var marginFix = {
-                    element: $("a.ver-carousel-arrow"),
-                    getWidth: function () {
-                        var width = this.element.outerWidth();
-                        return width / 2;
-                    },
-                    setWidth: function (type) {
-                        type = type || "vertical";
-                        if (type == "vertical") {
-                            this.element.css(
-                                "margin-left",
-                                "-" + this.getWidth() + "px"
-                            );
-                        } else {
-                            this.element.css(
-                                "margin-top",
-                                "-" + this.getWidth() + "px"
-                            );
-                        }
-                    }
-                };
-                marginFix.setWidth();
-                marginFix.element = $("a.carousel-arrow");
-                marginFix.setWidth("horizontal");
+
+                $(".slick-track").addClass("translate");
             });
+
+            carouselElement.find(".premium-carousel-inner").slick({
+                vertical:       carouselSettings["vertical"],
+                slidesToScroll: carouselSettings["slidesToScroll"],
+                slidesToShow:   carouselSettings["slidesToShow"],
+                responsive:     [
+                    {
+                        breakpoint: carouselSettings["tabletBreak"],
+                        settings:   {
+                            slidesToShow:   carouselSettings["slidesTab"],
+                            slidesToScroll: carouselSettings["slidesTab"]
+                        }
+                    },
+                    {
+                        breakpoint: carouselSettings["mobileBreak"],
+                        settings:   {
+                            slidesToShow:   carouselSettings["slidesMob"],
+                            slidesToScroll: carouselSettings["slidesMob"]
+                        }
+                    }
+                ],
+                useTransform:   true,
+                fade:           carouselSettings["fade"],
+                infinite:       carouselSettings["infinite"],
+                speed:          carouselSettings["speed"],
+                autoplay:       carouselSettings["autoplay"],
+                autoplaySpeed:  carouselSettings["autoplaySpeed"],
+                draggable:      carouselSettings["draggable"],
+                touchMove:      carouselSettings["touchMove"],
+                rtl:            carouselSettings["rtl"],
+                adaptiveHeight: carouselSettings["adaptiveHeight"],
+                pauseOnHover:   carouselSettings["pauseOnHover"],
+                centerMode:     carouselSettings["centerMode"],
+                centerPadding:  carouselSettings["centerPadding"],
+                arrows:         carouselSettings["arrows"],
+                nextArrow:      carouselSettings["nextArrow"],
+                prevArrow:      carouselSettings["prevArrow"],
+                dots:           carouselSettings["dots"],
+                customPaging:   function ( slider, i ) {
+                    return (
+                        '<i class="' +
+                        carouselSettings["customPaging"] +
+                        '"></i>'
+                    );
+                }
+            });
+
+            carouselElement.on("afterChange", function ( event, slick, currentSlide ) {
+                
+                var slidesScrolled  = slick.options.slidesToScroll,
+                slidesToShow        = slideToShow( slick ),
+                centerMode          = slick.options.centerMode,
+                slideToAnimate      = currentSlide + slidesToShow - 1;
+                
+                if (slidesScrolled === 1) {
+                    if ( ! centerMode === true ) {
+                        var $inViewPort = $(this).find( "[data-slick-index='" + slideToAnimate + "']" );
+                        
+                        if ( "null" != carouselSettings["animation"] ) {
+                            $inViewPort.find( "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button").addClass(carouselSettings["animation"]).removeClass("premium-carousel-content-hidden");
+                        }
+                    }
+                } else {
+                    for (
+                        var i = slidesScrolled + currentSlide;
+                        i >= 0;
+                        i--
+                    ) {
+                        $inViewPort = $(this).find(
+                            "[data-slick-index='" + i + "']"
+                        );
+                        if ( "null" != carouselSettings["animation"] ) {
+                            $inViewPort
+                                .find(
+                                    "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button"
+                                )
+                                .addClass(carouselSettings["animation"])
+                                .removeClass(
+                                    "premium-carousel-content-hidden"
+                                );
+                        }
+                    }
+                }
+            });
+
+        carouselElement.on("beforeChange", function ( event, slick, currentSlide ) {
+            var $inViewPort = $(this).find( "[data-slick-index='" + currentSlide + "']" );
+            
+            if ("null" != carouselSettings["animation"]) {
+                $inViewPort
+                    .siblings()
+                    .find(
+                        "p, h1, h2, h3, h4, h5, h6, span, a, img, i, button"
+                    )
+                    .removeClass(carouselSettings["animation"])
+                    .addClass("premium-carousel-content-hidden");
+            }
+        });
+            
+        if ( carouselSettings["vertical"] ) {
+
+            var maxHeight = -1;
+
+            carouselElement.find(".slick-slide").each(function () {
+
+                if ( $( this ).height() > maxHeight ) {
+
+                    maxHeight = $( this ).height();
+
+                }
+            });
+
+            carouselElement.find(".slick-slide").each(function () {
+                if ( $( this ).height() < maxHeight ) {
+                    $(this).css( "margin", Math.ceil(( maxHeight - $( this ).height() ) / 2 ) + "px 0" );
+                }
+            });
+        }
+            
+        var marginFix = {
+            element:    $( "a.ver-carousel-arrow" ),
+            getWidth:   function () {
+                var     width = this.element.outerWidth();
+                
+                return  width / 2;
+            },
+            setWidth: function ( type ) {
+                
+                type = type || "vertical";
+                
+                if ( type == "vertical" ) {
+                    
+                    this.element.css( "margin-left", "-" + this.getWidth() + "px" );
+            
+                } else {
+                    
+                    this.element.css( "margin-top", "-" + this.getWidth() + "px" );
+                    
+                }
+            }
+        };
+            
+        marginFix.setWidth();
+        marginFix.element = $( "a.carousel-arrow" );
+        marginFix.setWidth( "horizontal" );
     };
 
     /****** Premium Banner Handler ******/

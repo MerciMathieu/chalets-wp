@@ -1,0 +1,696 @@
+[2019-08-22 14:34:19 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:26 : INFO] - Re_Smush_It_Task server status: Online 
+[2019-08-22 14:35:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:27 : INFO] - 
+ 
+[2019-08-22 14:35:27 : INFO] - Header for logs at time:  Thu, 22 Aug 2019 14:35:27 +0200 on http://chalets 
+[2019-08-22 14:35:27 : INFO] - WP: 5.2.2 
+[2019-08-22 14:35:27 : INFO] - PHP: 7.3.5 (apache2handler, Windows NT DESKTOP-FD79JLU 10.0 build 17134 (Windows 10) AMD64) 
+[2019-08-22 14:35:27 : INFO] - MySQL: 5.7.26 
+[2019-08-22 14:35:27 : INFO] - WPLANG: fr_FR 
+[2019-08-22 14:35:27 : INFO] - Server: Apache/2.4.39 (Win64) PHP/7.3.5 
+[2019-08-22 14:35:27 : INFO] - Outbound connections: N 
+[2019-08-22 14:35:27 : INFO] - safe_mode: 0 
+[2019-08-22 14:35:27 : INFO] - max_execution_time: 120 
+[2019-08-22 14:35:27 : INFO] - memory_limit: 128M (used: 18M | 2M) 
+[2019-08-22 14:35:27 : INFO] - multisite: N 
+[2019-08-22 14:35:27 : INFO] - openssl: OpenSSL 1.1.1b  26 Feb 2019 
+[2019-08-22 14:35:28 : INFO] - A total of 31 tasks of type smush found and will be processed in this iteration 
+[2019-08-22 14:35:28 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:35:28 
+[2019-08-22 14:35:28 : INFO] - Semaphore lock (smush) complete 
+[2019-08-22 14:35:28 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2019-08-22 14:35:28 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:28 : INFO] - 95 
+[2019-08-22 14:35:28 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-10-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:28 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:28 : INFO] - 95 
+[2019-08-22 14:35:29 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:29 : INFO] - 95 
+[2019-08-22 14:35:29 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:29 : INFO] - 95 
+[2019-08-22 14:35:29 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:29 : INFO] - 95 
+[2019-08-22 14:35:30 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:30 : INFO] - 95 
+[2019-08-22 14:35:30 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:30 : INFO] - Re_Smush_It_Task - Attachment ID : 1320, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:30 : INFO] - 95 
+[2019-08-22 14:35:30 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-10.jpg.The file was compressed from 143.04 KB to 135.13 KB saving 5.53 percent using WP-Optimize 
+[2019-08-22 14:35:30 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2019-08-22 14:35:30 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2019-08-22 14:35:30 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:30 : INFO] - 95 
+[2019-08-22 14:35:31 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-9-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:31 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:31 : INFO] - 95 
+[2019-08-22 14:35:32 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:32 : INFO] - 95 
+[2019-08-22 14:35:32 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:32 : INFO] - 95 
+[2019-08-22 14:35:32 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:32 : INFO] - 95 
+[2019-08-22 14:35:33 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:33 : INFO] - 95 
+[2019-08-22 14:35:33 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:33 : INFO] - Re_Smush_It_Task - Attachment ID : 1314, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:33 : INFO] - 95 
+[2019-08-22 14:35:33 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-9.jpg.The file was compressed from 196.81 KB to 188.81 KB saving 4.07 percent using WP-Optimize 
+[2019-08-22 14:35:33 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2019-08-22 14:35:33 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2019-08-22 14:35:33 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:33 : INFO] - 95 
+[2019-08-22 14:35:36 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:37 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-8-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:37 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:37 : INFO] - 95 
+[2019-08-22 14:35:37 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:37 : INFO] - 95 
+[2019-08-22 14:35:38 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:38 : INFO] - 95 
+[2019-08-22 14:35:38 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:38 : INFO] - 95 
+[2019-08-22 14:35:38 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:38 : INFO] - 95 
+[2019-08-22 14:35:39 : INFO] - Re_Smush_It_Task - Attachment ID : 1308, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:39 : INFO] - 95 
+[2019-08-22 14:35:39 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:39 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-8.jpg.The file was compressed from 1.68 MB to 214.44 KB saving 87.55 percent using WP-Optimize 
+[2019-08-22 14:35:39 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2019-08-22 14:35:39 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2019-08-22 14:35:39 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:39 : INFO] - 95 
+[2019-08-22 14:35:40 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-7-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:40 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:40 : INFO] - 95 
+[2019-08-22 14:35:41 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:41 : INFO] - 95 
+[2019-08-22 14:35:41 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:41 : INFO] - 95 
+[2019-08-22 14:35:41 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:41 : INFO] - 95 
+[2019-08-22 14:35:42 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:42 : INFO] - 95 
+[2019-08-22 14:35:42 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:42 : INFO] - Re_Smush_It_Task - Attachment ID : 1302, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:42 : INFO] - 95 
+[2019-08-22 14:35:42 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-7.jpg.The file was compressed from 246.10 KB to 231.62 KB saving 5.88 percent using WP-Optimize 
+[2019-08-22 14:35:42 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2019-08-22 14:35:42 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2019-08-22 14:35:42 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:42 : INFO] - 95 
+[2019-08-22 14:35:43 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-6-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:43 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:43 : INFO] - 95 
+[2019-08-22 14:35:43 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:43 : INFO] - 95 
+[2019-08-22 14:35:43 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:43 : INFO] - 95 
+[2019-08-22 14:35:44 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:44 : INFO] - 95 
+[2019-08-22 14:35:44 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:44 : INFO] - 95 
+[2019-08-22 14:35:44 : INFO] - Re_Smush_It_Task - Attachment ID : 1296, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:44 : INFO] - 95 
+[2019-08-22 14:35:45 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:45 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-6.jpg.The file was compressed from 279.24 KB to 260.79 KB saving 6.61 percent using WP-Optimize 
+[2019-08-22 14:35:45 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2019-08-22 14:35:45 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2019-08-22 14:35:45 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:45 : INFO] - 95 
+[2019-08-22 14:35:45 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-5-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:46 : INFO] - 95 
+[2019-08-22 14:35:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:46 : INFO] - 95 
+[2019-08-22 14:35:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:46 : INFO] - 95 
+[2019-08-22 14:35:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:46 : INFO] - 95 
+[2019-08-22 14:35:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:46 : INFO] - 95 
+[2019-08-22 14:35:47 : INFO] - Re_Smush_It_Task - Attachment ID : 1290, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:47 : INFO] - 95 
+[2019-08-22 14:35:47 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-5.jpg.The file was compressed from 219.21 KB to 211.84 KB saving 3.36 percent using WP-Optimize 
+[2019-08-22 14:35:47 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2019-08-22 14:35:47 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2019-08-22 14:35:47 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:47 : INFO] - 95 
+[2019-08-22 14:35:48 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:48 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-4-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:48 : INFO] - 95 
+[2019-08-22 14:35:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:48 : INFO] - 95 
+[2019-08-22 14:35:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:48 : INFO] - 95 
+[2019-08-22 14:35:49 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:49 : INFO] - 95 
+[2019-08-22 14:35:49 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:49 : INFO] - 95 
+[2019-08-22 14:35:49 : INFO] - Re_Smush_It_Task - Attachment ID : 1284, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:49 : INFO] - 95 
+[2019-08-22 14:35:49 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-4.jpg.The file was compressed from 193.34 KB to 188.81 KB saving 2.34 percent using WP-Optimize 
+[2019-08-22 14:35:49 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2019-08-22 14:35:49 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:35:49 
+[2019-08-22 14:35:49 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2019-08-22 14:35:49 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:49 : INFO] - 95 
+[2019-08-22 14:35:50 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-3-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:50 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:50 : INFO] - 95 
+[2019-08-22 14:35:50 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:50 : INFO] - 95 
+[2019-08-22 14:35:51 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:51 : INFO] - 95 
+[2019-08-22 14:35:51 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:51 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:51 : INFO] - 95 
+[2019-08-22 14:35:51 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:51 : INFO] - 95 
+[2019-08-22 14:35:52 : INFO] - Re_Smush_It_Task - Attachment ID : 1274, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:52 : INFO] - 95 
+[2019-08-22 14:35:52 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-3.jpg.The file was compressed from 233.18 KB to 220.30 KB saving 5.52 percent using WP-Optimize 
+[2019-08-22 14:35:52 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2019-08-22 14:35:52 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2019-08-22 14:35:52 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:52 : INFO] - 95 
+[2019-08-22 14:35:53 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-2-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:53 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:53 : INFO] - 95 
+[2019-08-22 14:35:53 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:53 : INFO] - 95 
+[2019-08-22 14:35:53 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:53 : INFO] - 95 
+[2019-08-22 14:35:53 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:53 : INFO] - 95 
+[2019-08-22 14:35:54 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:54 : INFO] - 95 
+[2019-08-22 14:35:54 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:54 : INFO] - Re_Smush_It_Task - Attachment ID : 1268, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:54 : INFO] - 95 
+[2019-08-22 14:35:54 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-2.jpg.The file was compressed from 180.26 KB to 174.84 KB saving 3.01 percent using WP-Optimize 
+[2019-08-22 14:35:54 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2019-08-22 14:35:54 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2019-08-22 14:35:54 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:54 : INFO] - 95 
+[2019-08-22 14:35:56 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-1-updraft-pre-smush-original.jpg 
+[2019-08-22 14:35:56 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:56 : INFO] - 95 
+[2019-08-22 14:35:56 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:56 : INFO] - 95 
+[2019-08-22 14:35:56 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:56 : INFO] - 95 
+[2019-08-22 14:35:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:57 : INFO] - 95 
+[2019-08-22 14:35:57 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:35:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:57 : INFO] - 95 
+[2019-08-22 14:35:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1262, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:57 : INFO] - 95 
+[2019-08-22 14:35:57 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Chalet-1.jpg.The file was compressed from 261.23 KB to 247.35 KB saving 5.31 percent using WP-Optimize 
+[2019-08-22 14:35:57 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2019-08-22 14:35:57 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2019-08-22 14:35:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:35:57 : INFO] - 95 
+[2019-08-22 14:36:00 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-courchevel-chalet-pearl-livingroom-premium-1920-1-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:00 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:00 : INFO] - 95 
+[2019-08-22 14:36:00 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:00 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:00 : INFO] - 95 
+[2019-08-22 14:36:00 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:00 : INFO] - 95 
+[2019-08-22 14:36:00 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:00 : INFO] - 95 
+[2019-08-22 14:36:01 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:01 : INFO] - 95 
+[2019-08-22 14:36:02 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:02 : INFO] - 95 
+[2019-08-22 14:36:02 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:02 : INFO] - 95 
+[2019-08-22 14:36:02 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:02 : INFO] - 95 
+[2019-08-22 14:36:03 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:03 : INFO] - Re_Smush_It_Task - Attachment ID : 1214, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:03 : INFO] - 95 
+[2019-08-22 14:36:03 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-courchevel-chalet-pearl-livingroom-premium-1920-1.jpg.The file was compressed from 458.91 KB to 441.40 KB saving 3.82 percent using WP-Optimize 
+[2019-08-22 14:36:03 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2019-08-22 14:36:03 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2019-08-22 14:36:03 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:03 : INFO] - 95 
+[2019-08-22 14:36:03 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON-2-updraft-pre-smush-original.png 
+[2019-08-22 14:36:03 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:03 : INFO] - 95 
+[2019-08-22 14:36:04 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:04 : INFO] - 95 
+[2019-08-22 14:36:04 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:04 : INFO] - 95 
+[2019-08-22 14:36:04 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:04 : INFO] - 95 
+[2019-08-22 14:36:04 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:04 : INFO] - 95 
+[2019-08-22 14:36:05 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:05 : INFO] - 95 
+[2019-08-22 14:36:05 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:05 : INFO] - 95 
+[2019-08-22 14:36:05 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:05 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:06 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1141, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:06 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:06 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON-2.png.The file was compressed from 15.25 KB to 6.33 KB saving 58.52 percent using WP-Optimize 
+[2019-08-22 14:36:06 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2019-08-22 14:36:06 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2019-08-22 14:36:06 : INFO] - Re_Smush_It_Task - Attachment ID : 760, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:06 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866-2-updraft-pre-smush-original.png 
+[2019-08-22 14:36:06 : INFO] - Re_Smush_It_Task - Attachment ID : 760, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:06 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Re_Smush_It_Task - Attachment ID : 760, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:06 : INFO] - 95 
+[2019-08-22 14:36:06 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866-2.png.The file was compressed from 8.90 KB to 3.75 KB saving 57.8 percent using WP-Optimize 
+[2019-08-22 14:36:06 : INFO] - Completed processing task with ID : 13, and type 'smush' 
+[2019-08-22 14:36:07 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2019-08-22 14:36:07 : INFO] - Re_Smush_It_Task - Attachment ID : 759, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:07 : INFO] - 95 
+[2019-08-22 14:36:07 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON-1-updraft-pre-smush-original.png 
+[2019-08-22 14:36:07 : INFO] - Re_Smush_It_Task - Attachment ID : 759, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:07 : INFO] - 95 
+[2019-08-22 14:36:07 : INFO] - Re_Smush_It_Task - Attachment ID : 759, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:07 : INFO] - 95 
+[2019-08-22 14:36:07 : INFO] - Re_Smush_It_Task - Attachment ID : 759, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:07 : INFO] - 95 
+[2019-08-22 14:36:07 : INFO] - Re_Smush_It_Task - Attachment ID : 759, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:07 : INFO] - 95 
+[2019-08-22 14:36:08 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON-1.png.The file was compressed from 6.56 KB to 2.69 KB saving 59.03 percent using WP-Optimize 
+[2019-08-22 14:36:08 : INFO] - Completed processing task with ID : 14, and type 'smush' 
+[2019-08-22 14:36:08 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2019-08-22 14:36:08 : INFO] - Re_Smush_It_Task - Attachment ID : 757, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:08 : INFO] - 95 
+[2019-08-22 14:36:08 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-2-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:08 : INFO] - Re_Smush_It_Task - Attachment ID : 757, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:08 : INFO] - 95 
+[2019-08-22 14:36:08 : INFO] - Re_Smush_It_Task - Attachment ID : 757, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:08 : INFO] - 95 
+[2019-08-22 14:36:08 : INFO] - Re_Smush_It_Task - Attachment ID : 757, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:08 : INFO] - 95 
+[2019-08-22 14:36:09 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:09 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-2.jpg.The file was compressed from 43.79 KB to 42.23 KB saving 3.57 percent using WP-Optimize 
+[2019-08-22 14:36:09 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2019-08-22 14:36:09 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:36:09 
+[2019-08-22 14:36:09 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2019-08-22 14:36:09 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:09 : INFO] - 95 
+[2019-08-22 14:36:12 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-1-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:12 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:12 : INFO] - 95 
+[2019-08-22 14:36:12 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:12 : INFO] - 95 
+[2019-08-22 14:36:12 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:12 : INFO] - 95 
+[2019-08-22 14:36:12 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:12 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:12 : INFO] - 95 
+[2019-08-22 14:36:13 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:13 : INFO] - 95 
+[2019-08-22 14:36:14 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:14 : INFO] - 95 
+[2019-08-22 14:36:14 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:14 : INFO] - 95 
+[2019-08-22 14:36:14 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:14 : INFO] - 95 
+[2019-08-22 14:36:15 : INFO] - Re_Smush_It_Task - Attachment ID : 139, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:15 : INFO] - 95 
+[2019-08-22 14:36:15 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:18 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-1.jpg.The file was compressed from 427.30 KB to 413.05 KB saving 3.33 percent using WP-Optimize 
+[2019-08-22 14:36:18 : INFO] - Completed processing task with ID : 16, and type 'smush' 
+[2019-08-22 14:36:18 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2019-08-22 14:36:18 : INFO] - Re_Smush_It_Task - Attachment ID : 137, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:18 : INFO] - 95 
+[2019-08-22 14:36:18 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866-1-updraft-pre-smush-original.png 
+[2019-08-22 14:36:18 : INFO] - Re_Smush_It_Task - Attachment ID : 137, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:18 : INFO] - 95 
+[2019-08-22 14:36:18 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:18 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866-1.png.The file was compressed from 8.90 KB to 3.75 KB saving 57.8 percent using WP-Optimize 
+[2019-08-22 14:36:18 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2019-08-22 14:36:18 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2019-08-22 14:36:18 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:18 : INFO] - 95 
+[2019-08-22 14:36:20 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-1422433861-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:20 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:20 : INFO] - 95 
+[2019-08-22 14:36:21 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:21 : INFO] - 95 
+[2019-08-22 14:36:21 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:21 : INFO] - 95 
+[2019-08-22 14:36:21 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:21 : INFO] - 95 
+[2019-08-22 14:36:21 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:22 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:22 : INFO] - 95 
+[2019-08-22 14:36:22 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:22 : INFO] - 95 
+[2019-08-22 14:36:23 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:23 : INFO] - 95 
+[2019-08-22 14:36:23 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:23 : INFO] - 95 
+[2019-08-22 14:36:24 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:24 : INFO] - Re_Smush_It_Task - Attachment ID : 101, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:24 : INFO] - 95 
+[2019-08-22 14:36:24 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-1422433861.jpg.The file was compressed from 422.72 KB to 405.62 KB saving 4.05 percent using WP-Optimize 
+[2019-08-22 14:36:24 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2019-08-22 14:36:24 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2019-08-22 14:36:24 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:24 : INFO] - 95 
+[2019-08-22 14:36:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:27 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/1422433861-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:27 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:27 : INFO] - 95 
+[2019-08-22 14:36:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:27 : INFO] - 
+ 
+[2019-08-22 14:36:27 : INFO] - Header for logs at time:  Thu, 22 Aug 2019 14:36:27 +0200 on http://chalets 
+[2019-08-22 14:36:27 : INFO] - WP: 5.2.2 
+[2019-08-22 14:36:27 : INFO] - PHP: 7.3.5 (apache2handler, Windows NT DESKTOP-FD79JLU 10.0 build 17134 (Windows 10) AMD64) 
+[2019-08-22 14:36:27 : INFO] - MySQL: 5.7.26 
+[2019-08-22 14:36:27 : INFO] - WPLANG: fr_FR 
+[2019-08-22 14:36:27 : INFO] - Server: Apache/2.4.39 (Win64) PHP/7.3.5 
+[2019-08-22 14:36:27 : INFO] - Outbound connections: N 
+[2019-08-22 14:36:27 : INFO] - safe_mode: 0 
+[2019-08-22 14:36:27 : INFO] - max_execution_time: 120 
+[2019-08-22 14:36:27 : INFO] - memory_limit: 128M (used: 17.8M | 4M) 
+[2019-08-22 14:36:27 : INFO] - multisite: N 
+[2019-08-22 14:36:27 : INFO] - openssl: OpenSSL 1.1.1b  26 Feb 2019 
+[2019-08-22 14:36:27 : INFO] - A total of 13 tasks of type smush found and will be processed in this iteration 
+[2019-08-22 14:36:27 : INFO] - Semaphore lock (smush, wp_options) failed (line 131) 
+[2019-08-22 14:36:27 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2019-08-22 14:36:27 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:27 : INFO] - 95 
+[2019-08-22 14:36:27 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:27 : INFO] - 95 
+[2019-08-22 14:36:28 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:28 : INFO] - 95 
+[2019-08-22 14:36:29 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:29 : INFO] - 95 
+[2019-08-22 14:36:29 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:29 : INFO] - 95 
+[2019-08-22 14:36:29 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:29 : INFO] - 95 
+[2019-08-22 14:36:30 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:30 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:30 : INFO] - 95 
+[2019-08-22 14:36:30 : INFO] - Re_Smush_It_Task - Attachment ID : 100, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:31 : INFO] - 95 
+[2019-08-22 14:36:31 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/1422433861.jpg.The file was compressed from 556.88 KB to 522.93 KB saving 6.1 percent using WP-Optimize 
+[2019-08-22 14:36:31 : INFO] - Completed processing task with ID : 19, and type 'smush' 
+[2019-08-22 14:36:31 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:36:31 
+[2019-08-22 14:36:31 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2019-08-22 14:36:31 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:31 : INFO] - 95 
+[2019-08-22 14:36:33 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:34 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-courchevel-chalet-pearl-livingroom-premium-1920-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:34 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:34 : INFO] - 95 
+[2019-08-22 14:36:34 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:34 : INFO] - 95 
+[2019-08-22 14:36:34 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:34 : INFO] - 95 
+[2019-08-22 14:36:35 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:35 : INFO] - 95 
+[2019-08-22 14:36:35 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:35 : INFO] - 95 
+[2019-08-22 14:36:36 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:36 : INFO] - 95 
+[2019-08-22 14:36:36 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:36 : INFO] - 95 
+[2019-08-22 14:36:36 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:37 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:37 : INFO] - 95 
+[2019-08-22 14:36:37 : INFO] - Re_Smush_It_Task - Attachment ID : 99, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:37 : INFO] - 95 
+[2019-08-22 14:36:38 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-courchevel-chalet-pearl-livingroom-premium-1920.jpg.The file was compressed from 458.91 KB to 441.40 KB saving 3.82 percent using WP-Optimize 
+[2019-08-22 14:36:38 : INFO] - Completed processing task with ID : 20, and type 'smush' 
+[2019-08-22 14:36:38 : INFO] - Processing task with ID : 21, and type 'smush' 
+[2019-08-22 14:36:38 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:38 : INFO] - 95 
+[2019-08-22 14:36:39 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:41 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/courchevel-chalet-pearl-livingroom-premium-1920-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:41 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:41 : INFO] - 95 
+[2019-08-22 14:36:41 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:41 : INFO] - 95 
+[2019-08-22 14:36:42 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:42 : INFO] - 95 
+[2019-08-22 14:36:42 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:42 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:42 : INFO] - 95 
+[2019-08-22 14:36:43 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:43 : INFO] - 95 
+[2019-08-22 14:36:43 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:43 : INFO] - 95 
+[2019-08-22 14:36:43 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:43 : INFO] - 95 
+[2019-08-22 14:36:44 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:44 : INFO] - 95 
+[2019-08-22 14:36:44 : INFO] - Re_Smush_It_Task - Attachment ID : 98, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:44 : INFO] - 95 
+[2019-08-22 14:36:45 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:45 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/courchevel-chalet-pearl-livingroom-premium-1920.jpg.The file was compressed from 451.95 KB to 451.95 KB saving 0 percent using WP-Optimize 
+[2019-08-22 14:36:45 : INFO] - Completed processing task with ID : 21, and type 'smush' 
+[2019-08-22 14:36:45 : INFO] - Processing task with ID : 22, and type 'smush' 
+[2019-08-22 14:36:45 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:45 : INFO] - 95 
+[2019-08-22 14:36:47 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:47 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:47 : INFO] - 95 
+[2019-08-22 14:36:47 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:47 : INFO] - 95 
+[2019-08-22 14:36:47 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:47 : INFO] - 95 
+[2019-08-22 14:36:48 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:48 : INFO] - 95 
+[2019-08-22 14:36:48 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:48 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:48 : INFO] - 95 
+[2019-08-22 14:36:49 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:49 : INFO] - 95 
+[2019-08-22 14:36:49 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:49 : INFO] - 95 
+[2019-08-22 14:36:50 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:50 : INFO] - 95 
+[2019-08-22 14:36:50 : INFO] - Re_Smush_It_Task - Attachment ID : 97, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:50 : INFO] - 95 
+[2019-08-22 14:36:50 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389.jpg.The file was compressed from 298.61 KB to 289.02 KB saving 3.21 percent using WP-Optimize 
+[2019-08-22 14:36:50 : INFO] - Completed processing task with ID : 22, and type 'smush' 
+[2019-08-22 14:36:50 : INFO] - Processing task with ID : 23, and type 'smush' 
+[2019-08-22 14:36:50 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:50 : INFO] - 95 
+[2019-08-22 14:36:51 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:52 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389-updraft-pre-smush-original.jpg 
+[2019-08-22 14:36:52 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:52 : INFO] - 95 
+[2019-08-22 14:36:53 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:53 : INFO] - 95 
+[2019-08-22 14:36:53 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:53 : INFO] - 95 
+[2019-08-22 14:36:53 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:53 : INFO] - 95 
+[2019-08-22 14:36:54 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:54 : INFO] - 95 
+[2019-08-22 14:36:54 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:36:54 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:54 : INFO] - 95 
+[2019-08-22 14:36:55 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:55 : INFO] - 95 
+[2019-08-22 14:36:55 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:55 : INFO] - 95 
+[2019-08-22 14:36:55 : INFO] - Re_Smush_It_Task - Attachment ID : 96, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:56 : INFO] - 95 
+[2019-08-22 14:36:56 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/location-saisonniere-chalet-courchevel-ori100-L0076CL-29375389.jpg.The file was compressed from 335.81 KB to 321.18 KB saving 4.36 percent using WP-Optimize 
+[2019-08-22 14:36:56 : INFO] - Completed processing task with ID : 23, and type 'smush' 
+[2019-08-22 14:36:56 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:36:56 
+[2019-08-22 14:36:56 : INFO] - Processing task with ID : 24, and type 'smush' 
+[2019-08-22 14:36:56 : INFO] - Re_Smush_It_Task - Attachment ID : 94, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:36:56 : INFO] - 95 
+[2019-08-22 14:36:57 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:00 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:03 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:06 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:09 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:12 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:15 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:18 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:21 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:24 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:27 : INFO] - 
+ 
+[2019-08-22 14:37:27 : INFO] - Header for logs at time:  Thu, 22 Aug 2019 14:37:27 +0200 on http://chalets 
+[2019-08-22 14:37:27 : INFO] - WP: 5.2.2 
+[2019-08-22 14:37:27 : INFO] - PHP: 7.3.5 (apache2handler, Windows NT DESKTOP-FD79JLU 10.0 build 17134 (Windows 10) AMD64) 
+[2019-08-22 14:37:27 : INFO] - MySQL: 5.7.26 
+[2019-08-22 14:37:27 : INFO] - WPLANG: fr_FR 
+[2019-08-22 14:37:27 : INFO] - Server: Apache/2.4.39 (Win64) PHP/7.3.5 
+[2019-08-22 14:37:27 : INFO] - Outbound connections: N 
+[2019-08-22 14:37:27 : INFO] - safe_mode: 0 
+[2019-08-22 14:37:27 : INFO] - max_execution_time: 120 
+[2019-08-22 14:37:27 : INFO] - memory_limit: 128M (used: 17.8M | 2M) 
+[2019-08-22 14:37:27 : INFO] - multisite: N 
+[2019-08-22 14:37:27 : INFO] - openssl: OpenSSL 1.1.1b  26 Feb 2019 
+[2019-08-22 14:37:27 : INFO] - A total of 8 tasks of type smush found and will be processed in this iteration 
+[2019-08-22 14:37:27 : INFO] - Semaphore lock (smush, wp_options) failed (line 131) 
+[2019-08-22 14:37:27 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2019-08-22 14:37:30 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:33 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:36 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:39 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:42 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:45 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:48 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:51 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:54 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:37:57 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:00 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:03 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:06 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:09 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:12 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:15 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:18 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:21 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:24 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:27 : INFO] - 
+ 
+[2019-08-22 14:38:27 : INFO] - Header for logs at time:  Thu, 22 Aug 2019 14:38:27 +0200 on http://chalets 
+[2019-08-22 14:38:27 : INFO] - WP: 5.2.2 
+[2019-08-22 14:38:27 : INFO] - PHP: 7.3.5 (apache2handler, Windows NT DESKTOP-FD79JLU 10.0 build 17134 (Windows 10) AMD64) 
+[2019-08-22 14:38:27 : INFO] - MySQL: 5.7.26 
+[2019-08-22 14:38:27 : INFO] - WPLANG: fr_FR 
+[2019-08-22 14:38:27 : INFO] - Server: Apache/2.4.39 (Win64) PHP/7.3.5 
+[2019-08-22 14:38:27 : INFO] - Outbound connections: N 
+[2019-08-22 14:38:27 : INFO] - safe_mode: 0 
+[2019-08-22 14:38:27 : INFO] - max_execution_time: 120 
+[2019-08-22 14:38:27 : INFO] - memory_limit: 128M (used: 17.8M | 2M) 
+[2019-08-22 14:38:27 : INFO] - multisite: N 
+[2019-08-22 14:38:27 : INFO] - openssl: OpenSSL 1.1.1b  26 Feb 2019 
+[2019-08-22 14:38:27 : INFO] - A total of 8 tasks of type smush found and will be processed in this iteration 
+[2019-08-22 14:38:27 : INFO] - Semaphore (smush, wp_options) was stuck, set lock time to 2019-08-22 12:38:27 
+[2019-08-22 14:38:27 : INFO] - Semaphore (smush, wp_options) reset to 1 
+[2019-08-22 14:38:27 : INFO] - Set semaphore last lock (smush) time to 2019-08-22 12:38:27 
+[2019-08-22 14:38:27 : INFO] - Semaphore lock (smush) complete 
+[2019-08-22 14:38:27 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:30 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:30 : INFO] - Task with ID 24 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2019-08-22 14:38:30 : INFO] - Processing task with ID : 25, and type 'smush' 
+[2019-08-22 14:38:30 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:30 : INFO] - 95 
+[2019-08-22 14:38:31 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON-updraft-pre-smush-original.png 
+[2019-08-22 14:38:31 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:31 : INFO] - 95 
+[2019-08-22 14:38:31 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:31 : INFO] - 95 
+[2019-08-22 14:38:32 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:32 : INFO] - 95 
+[2019-08-22 14:38:32 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:32 : INFO] - 95 
+[2019-08-22 14:38:32 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:32 : INFO] - 95 
+[2019-08-22 14:38:32 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:32 : INFO] - 95 
+[2019-08-22 14:38:33 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:33 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:33 : INFO] - 95 
+[2019-08-22 14:38:33 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:33 : INFO] - 95 
+[2019-08-22 14:38:34 : INFO] - Re_Smush_It_Task - Attachment ID : 91, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:34 : INFO] - 95 
+[2019-08-22 14:38:34 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Icone-MAISON.png.The file was compressed from 15.29 KB to 6.35 KB saving 58.46 percent using WP-Optimize 
+[2019-08-22 14:38:34 : INFO] - Completed processing task with ID : 25, and type 'smush' 
+[2019-08-22 14:38:34 : INFO] - Processing task with ID : 26, and type 'smush' 
+[2019-08-22 14:38:34 : INFO] - Re_Smush_It_Task - Attachment ID : 90, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:34 : INFO] - 95 
+[2019-08-22 14:38:34 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Icone-MAISON-updraft-pre-smush-original.png 
+[2019-08-22 14:38:34 : INFO] - Re_Smush_It_Task - Attachment ID : 90, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:34 : INFO] - 95 
+[2019-08-22 14:38:35 : INFO] - Re_Smush_It_Task - Attachment ID : 90, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:35 : INFO] - 95 
+[2019-08-22 14:38:35 : INFO] - Re_Smush_It_Task - Attachment ID : 90, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:35 : INFO] - 95 
+[2019-08-22 14:38:36 : INFO] - Re_Smush_It_Task - Attachment ID : 90, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:36 : INFO] - 95 
+[2019-08-22 14:38:36 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:36 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Icone-MAISON.png.The file was compressed from 2.67 KB to 2.67 KB saving 0 percent using WP-Optimize 
+[2019-08-22 14:38:36 : INFO] - Completed processing task with ID : 26, and type 'smush' 
+[2019-08-22 14:38:36 : INFO] - Processing task with ID : 27, and type 'smush' 
+[2019-08-22 14:38:36 : INFO] - Re_Smush_It_Task - Attachment ID : 84, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:36 : INFO] - 95 
+[2019-08-22 14:38:37 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866-updraft-pre-smush-original.png 
+[2019-08-22 14:38:37 : INFO] - Re_Smush_It_Task - Attachment ID : 84, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:37 : INFO] - 95 
+[2019-08-22 14:38:37 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647835866.png.The file was compressed from 8.90 KB to 3.75 KB saving 57.8 percent using WP-Optimize 
+[2019-08-22 14:38:37 : INFO] - Completed processing task with ID : 27, and type 'smush' 
+[2019-08-22 14:38:37 : INFO] - Processing task with ID : 28, and type 'smush' 
+[2019-08-22 14:38:37 : INFO] - Re_Smush_It_Task - Attachment ID : 82, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:37 : INFO] - 95 
+[2019-08-22 14:38:38 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647729187-updraft-pre-smush-original.png 
+[2019-08-22 14:38:38 : INFO] - Re_Smush_It_Task - Attachment ID : 82, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:38 : INFO] - 95 
+[2019-08-22 14:38:38 : INFO] - Re_Smush_It_Task - Attachment ID : 82, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:38 : INFO] - 95 
+[2019-08-22 14:38:39 : INFO] - Re_Smush_It_Task - Attachment ID : 82, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:39 : INFO] - 95 
+[2019-08-22 14:38:39 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:39 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-e1564647729187.png.The file was compressed from 18.39 KB to 6.50 KB saving 64.64 percent using WP-Optimize 
+[2019-08-22 14:38:39 : INFO] - Completed processing task with ID : 28, and type 'smush' 
+[2019-08-22 14:38:39 : INFO] - Processing task with ID : 29, and type 'smush' 
+[2019-08-22 14:38:39 : INFO] - Re_Smush_It_Task - Attachment ID : 80, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:39 : INFO] - 95 
+[2019-08-22 14:38:39 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-1-e1564646964974-updraft-pre-smush-original.png 
+[2019-08-22 14:38:39 : INFO] - Re_Smush_It_Task - Attachment ID : 80, Started on : August 22, 2019 02:35:27 
+[2019-08-22 14:38:39 : INFO] - 95 
+[2019-08-22 14:38:40 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-1-e1564646964974.png.The file was compressed from 5.07 KB to 2.80 KB saving 44.89 percent using WP-Optimize 
+[2019-08-22 14:38:40 : INFO] - Completed processing task with ID : 29, and type 'smush' 
+[2019-08-22 14:38:40 : INFO] - Processing task with ID : 30, and type 'smush' 
+[2019-08-22 14:38:40 : INFO] - Re_Smush_It_Task - Attachment ID : 69, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:40 : INFO] - 95 
+[2019-08-22 14:38:41 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2-updraft-pre-smush-original.png 
+[2019-08-22 14:38:41 : INFO] - Re_Smush_It_Task - Attachment ID : 69, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:41 : INFO] - 95 
+[2019-08-22 14:38:41 : INFO] - Re_Smush_It_Task - Attachment ID : 69, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:41 : INFO] - 95 
+[2019-08-22 14:38:42 : INFO] - Re_Smush_It_Task - Attachment ID : 69, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:42 : INFO] - 95 
+[2019-08-22 14:38:42 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:42 : INFO] - Re_Smush_It_Task - Attachment ID : 69, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:42 : INFO] - 95 
+[2019-08-22 14:38:43 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/cropped-Sans-titre-2.png.The file was compressed from 55.54 KB to 16.95 KB saving 69.48 percent using WP-Optimize 
+[2019-08-22 14:38:43 : INFO] - Completed processing task with ID : 30, and type 'smush' 
+[2019-08-22 14:38:43 : INFO] - Processing task with ID : 31, and type 'smush' 
+[2019-08-22 14:38:43 : INFO] - Re_Smush_It_Task - Attachment ID : 68, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:43 : INFO] - 95 
+[2019-08-22 14:38:43 : INFO] - Backing up the original image - C:/wamp64/www/chalets_et_caviar-wp/wp-content/uploads/2019/08/Sans-titre-2-e1564647835866-updraft-pre-smush-original.png 
+[2019-08-22 14:38:43 : INFO] - Re_Smush_It_Task - Attachment ID : 68, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:43 : INFO] - 95 
+[2019-08-22 14:38:44 : INFO] - Re_Smush_It_Task - Attachment ID : 68, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:44 : INFO] - 95 
+[2019-08-22 14:38:44 : INFO] - Re_Smush_It_Task - Attachment ID : 68, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:44 : INFO] - 95 
+[2019-08-22 14:38:45 : INFO] - Re_Smush_It_Task - Attachment ID : 68, Started on : August 22, 2019 02:35:28 
+[2019-08-22 14:38:45 : INFO] - 95 
+[2019-08-22 14:38:45 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:45 : INFO] - Successfully optimized the image - C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/08/Sans-titre-2-e1564647835866.png.The file was compressed from 9.19 KB to 3.75 KB saving 59.13 percent using WP-Optimize 
+[2019-08-22 14:38:45 : INFO] - Completed processing task with ID : 31, and type 'smush' 
+[2019-08-22 14:38:45 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-08-22 14:38:45 : INFO] - Semaphore (smush) unlocked 
+[2019-08-22 14:38:45 : INFO] - Successfully processed the queue (smush). 8 tasks were processed out of 8. 
+[2019-08-22 14:38:45 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-08-22 14:38:45 : INFO] - Cleaning up tasks of type (smush). A total of 31 tasks will be deleted. 
+[2019-08-22 14:38:48 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:51 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:51 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:38:54 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
+[2019-08-22 14:40:14 : INFO] - Could not find file for image: ID=52, file=C:\wamp64\www\chalets_et_caviar-wp/wp-content/uploads/2019/07/5B1BEEAF6F658512038280-001.jpg 
